@@ -7,3 +7,7 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+  package = "gatsby-plugin-canonical-urls"
+
+    [plugins.inputs]
+    siteUrl = "https://mrekaya.com"
